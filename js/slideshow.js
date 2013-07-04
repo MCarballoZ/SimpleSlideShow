@@ -1,7 +1,7 @@
-/*$(document).ready(function(){
+$(document).ready(function(){
   	var imagen1 = $('#img2');
 
-      alert("hola");
+      /*alert("hola");*/
   	$('#img1').animate({
   			height: '=0%',
   			},1000,function() {
@@ -18,4 +18,4 @@
       $('#imgt').attr("id","img4");
 
       setTimeout(arguments.callee, 3000);
-});*/
+});
